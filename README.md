@@ -85,7 +85,7 @@ deepspeed --include=localhost train_planner_dpo.py \
 --save_steps -1 \
 --logging_steps 1 \
 --eval_steps 10 \
---train_batch_size 128 \
+--train_batch_size 32 \
 --micro_train_batch_size 1 \
 --pretrain Qwen/Qwen2.5-32B-Instruct \
 --bf16 \
