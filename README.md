@@ -63,6 +63,7 @@ cd train/LLaMA-Factory
 python train/make_sft_data.py
 python train/make_dpo_data.py --best_of_n 4 --level 1 --dataset gaia
 ```
+- `--dataset` can be gaia, imm, wtq-xlsx, wtq-csv, math and hotpotqa
 
 ### Dataset Preparation
 
