@@ -214,7 +214,7 @@ def evaluate_on_gaia():
     SAVE_RESULT = True
     MAX_TRIES = 1
     
-    SAVE_RESULT_PATH = f"results/workforce/workforce_{LEVEL}_pass{MAX_TRIES}.json"
+    SAVE_RESULT_PATH = f"results/workforce/workforce_{LEVEL}_pass{MAX_TRIES}_claude.json"
     test_idx = [0, 1, 2]
 
     if os.path.exists(f"tmp/"):

@@ -59,10 +59,5 @@ camel/types/__pycache__/
 camel/__pycache__/
 camel/utils/__pycache_/
 
-hmk
-
-data_collection/dataset/hotpotqa/*
 data/*
 
-data_collection/raw_data/*
-camel-0.2.30
